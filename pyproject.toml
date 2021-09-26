@@ -3,7 +3,7 @@ name = ""
 version = "0.1.0"
 description = ""
 authors = ["Jonathan Miller <jon@jmill.dev>"]
-packages = [{ include = "src" }]
+packages = [{ include = "", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.9"
