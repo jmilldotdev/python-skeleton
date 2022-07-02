@@ -5,6 +5,9 @@ description = ""
 authors = ["Jonathan Miller <jon@jmill.dev>"]
 packages = [{ include = "", from = "src" }]
 
+[tool.poetry.dependencies]
+python = "^3.9"
+
 [tool.poetry.dev-dependencies]
 black = "^22.3.0"
 ipykernel = "^5.3.3"
